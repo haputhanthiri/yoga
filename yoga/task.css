@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page1{
+    display: flex; 
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid rgb(244, 241, 238);
+}
+.page1 img{
+    width: 950px;
+   
+    height: flex;
+
+   
+}
+.text1{
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(231, 224, 216);
+    
+
+}
+.text1 p1{
+    display: flex;
+    justify-content:center;
+    margin-top: 10%;
+    letter-spacing: 0.3rem;
+    font-size: 1.4rem;
+}
+.text1 p2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.text1 p3{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 8%;
+    font-size: 2.5rem;
+}
+.text1 button{
+    padding: 15px 30px; 
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 5% 40%;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+/*-------page 2------*/
+.page2{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 211, 130);
+    
+    
+}
+.page2 p1{
+    font-size: 2.5rem;
+    margin-top: 6%;
+ 
+}
+.page2 p2{
+    font-size: 1.5rem;
+    margin: 3% 6%;   
+}
+.page2 p3{
+
+}
+.page2 button{
+    width: 10%;
+    margin-left: 45%;
+    cursor: pointer;
+    padding: 15px 30px; 
+    margin-top: 5%;
+    
+}
+
+
+/*---------page 3-------*/
+.page3 {
+    width: 100vw;
+    height: 100vh;  
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10%;
+}
+
+
+
+.col1 {
+   width: 30vw;
+ 
+   margin-left: 6%;
+   
+
+}
+.page3 p1{
+    color: rgb(169, 48, 48);
+    font-size: 1.4rem;
+}
+.page3 p2{
+    margin-right: 5vw;
+}
+.page3 img{
+    width: 100%;
+}
+
+/* ----------------page 4----------------*/
+
+
+
+
+.page4 {
+    display: flex;
+    background-color: bisque;
+    flex-direction: row;
+}
+.page4 img {
+   margin-bottom: 10%;
+
+   
+}
+.text2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+.text2 p1{
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 12%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 6%;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+
+}
+.text2 p2{
+    font-size: 1.0rem;
+    font-family: monospace;
+    
+}
+.text2 p3{
+    color: brown;
+    font-size: 1.3rem;
+}
+.text2 p5{
+    color: brown;
+    font-size: 1.3rem;
+}
+
+
+/* ............page 5............ */
+
+
+.page5{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+}
+.page5 p1{
+    text-align: center;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%
+}
+.page5 td{
+    font-size: 1.1rem;
+    margin-right: 20px;
+}
+ .page5 th{
+    margin-bottom: 3%;
+ }
+
+
+
+
+ /* -----------page 6---------- */
+ .page6{
+    width: 100vw;
+    height: 100vh;
+    margin-left: 6%;
+    
+ }
+
+ .page6 p1{
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+   
+    
+ }
+
+.footer{
+    display: flex;
+    margin-top: 27%;
+    
+}
+
+.clinic{
+    width: 33.33vw;
+    align-items: flex-end;
+}
+
+.schedule{
+    width: 33.33vw;
+    align-items: flex-end;  
+}
+.clinic p1{
+    font-size: 1.7rem;
+    color:brown;
+    
+}
+
+.schedule p1{
+    font-size: 1.7rem;
+    color:brown;
+}
+
+.social-icon{
+    display: flex;
+    align-items: flex-end;  
+}
+.social-item img{
+    scale: 0.5;
+}
+
+
+
+
+/* -----------------RESPONSIVE----------------- */
+
+@media only screen and (max-width: 485px){
+    .page1 img {
+        width: 100%;
+    }
+    .page1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .tex1{
+        width: 100%;
+    }
+    .page1 button{
+        padding: 15px 45px;
+
+        
+    }
+    
+    .page2 {
+        
+    }
+    .page2 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .page2 p1{
+        margin-top: 95%;
+        font-size: 1.4rem;
+    }
+    .page2 p2{
+        font-size: 1.1rem;
+    }
+    .page2 button{
+        margin-left: 45%;
+        width: 20%;
+        margin-top:3% ;
+        margin-bottom: 3%;
+
+    }
+     .page3 {
+        display: flex;
+        flex-direction: column;
+     }
+     .page3 img{
+        width: 100%;
+     }
+     .col1{
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+
+
+
+    .page4 img{
+        width: 100%;
+        
+    }
+    .page4{
+        display: flex;
+        flex-direction: column;
+        margin-top: 250%;
+        
+    }
+    .text2{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .page6{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .clinic{
+        margin-bottom: 55px;
+    }
+  
+
+    .social-icon{
+        width: 100%;
+    }
+
+}
+    
